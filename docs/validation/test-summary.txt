@@ -1,0 +1,63 @@
+Command: python3 -m unittest discover -s tests -v
+Exit code: 1
+
+test_admin_interface (test_admin_v0500.ManagerChecks.test_admin_interface) ... ok
+test_app_identity_and_offline (test_admin_v0500.ManagerChecks.test_app_identity_and_offline) ... FAIL
+test_history_encrypted_and_reversible (test_admin_v0500.ManagerChecks.test_history_encrypted_and_reversible) ... ok
+test_legacy_delete_uses_history (test_admin_v0500.ManagerChecks.test_legacy_delete_uses_history) ... ok
+test_restore_original_ids (test_admin_v0500.ManagerChecks.test_restore_original_ids) ... ok
+test_three_sources_and_commands (test_admin_v0500.ManagerChecks.test_three_sources_and_commands) ... ok
+test_api_key_never_bundled (test_agent_v0510.AgentChecks.test_api_key_never_bundled) ... ok
+test_app_permission_identity_version (test_agent_v0510.AgentChecks.test_app_permission_identity_version) ... FAIL
+test_history_labels (test_agent_v0510.AgentChecks.test_history_labels) ... ok
+test_only_typed_sql_not_ai_generated (test_agent_v0510.AgentChecks.test_only_typed_sql_not_ai_generated) ... ok
+test_relay_limits (test_agent_v0510.AgentChecks.test_relay_limits) ... ok
+test_stored_token_not_saved (test_agent_v0510.AgentChecks.test_stored_token_not_saved) ... FAIL
+test_multi_picker_and_app_id (test_batch_screenshots_v0480.BatchChatImport.test_multi_picker_and_app_id) ... FAIL
+test_no_remote_upload_or_force_encryption (test_batch_screenshots_v0480.BatchChatImport.test_no_remote_upload_or_force_encryption) ... ok
+test_order_review_edit_before_storage (test_batch_screenshots_v0480.BatchChatImport.test_order_review_edit_before_storage) ... ok
+test_strict_bubble_only_and_safe_dedup (test_batch_screenshots_v0480.BatchChatImport.test_strict_bubble_only_and_safe_dedup) ... ok
+test_orphan_session_cleaned_after_reboot (test_capture_stop_v0477.SafeStop.test_orphan_session_cleaned_after_reboot) ... ok
+test_overlay_stop_and_stale_notification (test_capture_stop_v0477.SafeStop.test_overlay_stop_and_stale_notification) ... ok
+test_preserve_privacy_layout_and_data (test_capture_stop_v0477.SafeStop.test_preserve_privacy_layout_and_data) ... ok
+test_stop_does_not_relaunch_a_dead_service (test_capture_stop_v0477.SafeStop.test_stop_does_not_relaunch_a_dead_service) ... ok
+test_version (test_capture_stop_v0477.SafeStop.test_version) ... FAIL
+test_cropping_preserves_first_and_last_messages (test_chat_line_recognition_v0481.ChatLineFilterRegression.test_cropping_preserves_first_and_last_messages) ... ok
+test_fallback_is_review_only (test_chat_line_recognition_v0481.ChatLineFilterRegression.test_fallback_is_review_only) ... ok
+test_identity_unchanged_and_no_network_permission (test_chat_line_recognition_v0481.ChatLineFilterRegression.test_identity_unchanged_and_no_network_permission) ... FAIL
+test_line_based_instead_of_block_level_classifier (test_chat_line_recognition_v0481.ChatLineFilterRegression.test_line_based_instead_of_block_level_classifier) ... ok
+test_compile_fix_v0471 (unittest.loader._FailedTest.test_compile_fix_v0471) ... ERROR
+test_bitmap_read_and_decoder_fallback (test_decode_fix_v0482.BatchBitmapDecodeFix.test_bitmap_read_and_decoder_fallback) ... FAIL
+test_headers_are_only_metadata (test_decode_fix_v0482.BatchBitmapDecodeFix.test_headers_are_only_metadata) ... ok
+test_keep_multi_pick_and_storage (test_decode_fix_v0482.BatchBitmapDecodeFix.test_keep_multi_pick_and_storage) ... ok
+test_both_modes_share_same_authorization_helper (test_full_display_v0478.ScreenConsent.test_both_modes_share_same_authorization_helper) ... ok
+test_explicit_full_display_on_android14_plus (test_full_display_v0478.ScreenConsent.test_explicit_full_display_on_android14_plus) ... ok
+test_same_application_identity (test_full_display_v0478.ScreenConsent.test_same_application_identity) ... FAIL
+test_answer_view_attached_to_layout (test_gpt_diagnostics_v0511.GptErrorVisibility.test_answer_view_attached_to_layout) ... FAIL
+test_network_failure_details_displayed (test_gpt_diagnostics_v0511.GptErrorVisibility.test_network_failure_details_displayed) ... FAIL
+test_no_bundled_api_secret (test_gpt_diagnostics_v0511.GptErrorVisibility.test_no_bundled_api_secret) ... ok
+test_successful_response_visible (test_gpt_diagnostics_v0511.GptErrorVisibility.test_successful_response_visible) ... ok
+test_audit_not_faked_by_no_pending_calls (test_gpt_tool_evidence_v0512.GptEvidence.test_audit_not_faked_by_no_pending_calls) ... ok
+test_force_search_on_explicit_db_questions (test_gpt_tool_evidence_v0512.GptEvidence.test_force_search_on_explicit_db_questions) ... ok
+test_no_change_to_db_names (test_gpt_tool_evidence_v0512.GptEvidence.test_no_change_to_db_names) ... ok
+test_no_forced_search_on_plain_conversation (test_gpt_tool_evidence_v0512.GptEvidence.test_no_forced_search_on_plain_conversation) ... ok
+test_accessibility_does_not_stop_ocr_on_teardown (test_lifecycle_v0479.CaptureLifecycle.test_accessibility_does_not_stop_ocr_on_teardown) ... ok
+test_durable_events_and_ui_copy (test_lifecycle_v0479.CaptureLifecycle.test_durable_events_and_ui_copy) ... ok
+test_diagnostic_stages (test_ocr_steps_v0474.StepChecks.test_diagnostic_stages) ... ok
+test_grant_sender_uses_activity_result (test_projection_result_fix_v0475.MediaProjectionGrantRegression.test_grant_sender_uses_activity_result) ... ok
+test_grants_are_checked_with_result_ok (test_projection_result_fix_v0475.MediaProjectionGrantRegression.test_grants_are_checked_with_result_ok) ... ok
+test_ok_is_minus_one_on_android (test_projection_result_fix_v0475.MediaProjectionGrantRegression.test_ok_is_minus_one_on_android) ... ok
+test_custom_launcher_icon (test_static_project.StaticChecks.test_custom_launcher_icon) ... ok
+test_encrypted_stores_and_export (test_static_project.StaticChecks.test_encrypted_stores_and_export) ... ok
+test_legacy_trace_restored (test_static_project.StaticChecks.test_legacy_trace_restored) ... ok
+test_offline_manifest_and_wechat_scope (test_static_project.StaticChecks.test_offline_manifest_and_wechat_scope) ... ok
+test_phone_cloud_build_recipe_present (test_static_project.StaticChecks.test_phone_cloud_build_recipe_present) ... ok
+test_screenshot_open_for_testing (test_static_project.StaticChecks.test_screenshot_open_for_testing) ... ok
+test_version_and_unique_id (test_static_project.StaticChecks.test_version_and_unique_id) ... FAIL
+test_xml_documents_parse (test_static_project.StaticChecks.test_xml_documents_parse) ... ok
+Ran 54 tests in 0.031s
+FAILED (failures=11, errors=1)
+
+Relay: 3 tests passed; exit code 0 (mocked OpenAI).
+Kotlin rules regression: PASS; exit code 0.
+Android testDebugUnitTest: NO-SOURCE; zero tests executed.
