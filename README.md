@@ -1,6 +1,8 @@
 # 欧南 · 个人知识中枢 Android
 
 V0.5.3.1 Android/Kotlin 工程，应用 ID 为 `com.ounan.secondbrain`，`versionCode = 31`。
+Debug 构建独立使用 `com.ounan.secondbrain.debug`，名称为「欧南知识中枢·测试版」，可与正式版分别安装；正式版身份保持不变。
+安装和隔离验证见 [独立测试版说明](docs/DEBUG_COEXISTENCE.md)。
 本次将已有源码归档恢复为可直接构建的 GitHub 工程，不增加功能、不修改应用源码、数据库结构或签名配置。
 
 保留 SQLite 知识库、GPT 接口、微信截图 OCR、蜘蛛采集、历史记录及原有界面。
@@ -46,7 +48,7 @@ sdkmanager "platforms;android-35" "build-tools;35.0.0"
 在只读用户目录的云环境中，可将 `GRADLE_USER_HOME`、`ANDROID_USER_HOME` 指向可写的工作区外部目录；代理和 CA 按环境提供的配置使用，不能关闭 TLS 校验。
 
 输出：`app/build/outputs/apk/debug/app-debug.apk`。
-GitHub Actions 在 PR、推送到 `main` 或手动触发时构建，并上传 `OunanSecondBrain-v0.5.3.1-debug-apk` 工件。
+GitHub Actions 在 PR、推送到 `main` 或手动触发时构建，并上传 `OunanSecondBrain-v0.5.3.1-independent-debug-apk` 工件。
 实际远端 CI 状态需以对应运行记录为准；本地成功不等于远端已运行。
 
 签名配置保持归档原样；Debug 构建使用构建环境自己的调试密钥。

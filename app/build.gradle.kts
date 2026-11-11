@@ -27,6 +27,9 @@ android {
         jvmTarget = "17"
     }
     buildTypes {
+        debug {
+            applicationIdSuffix = ".debug"
+        }
         release {
             isMinifyEnabled = false
         }
