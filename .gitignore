@@ -1,0 +1,42 @@
+.gradle/
+.idea/
+local.properties
+build/
+app/build/
+*.iml
+*.apk
+*.aab
+*.keystore
+
+# Local credentials and signing material; keep sanitized examples reviewable.
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+.wrangler/
+*.jks
+*.pem
+*.key
+*.p12
+*.pfx
+
+# User databases, SQLite sidecars and exported private archives.
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.ounan
+private-data/
+backups/
+
+# Python tests, editor state and local build caches.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.kotlin/
+.vscode/
+.DS_Store

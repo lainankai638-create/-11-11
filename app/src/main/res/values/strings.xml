@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wechat_accessibility_description">仅在用户主动开启可见的采集蜘蛛会话后，识别当前屏幕提供给无障碍服务的文字。分为知识碎片和微信聊天两个模式，不自动点击、不翻页、不联网；可通过悬浮窗暂停或停止，结果仅本机加密保存。</string>
+</resources>

@@ -1,0 +1,7 @@
+欧南第二大脑 V0.4.1 静态修补说明
+
+修改：app/src/main/java/com/ounan/knowledge/MainActivity.kt
+将 ScrollView(this).apply { fillViewport = true } 改为 ScrollView(this).apply { setFillViewport(true) }。
+修复 Code on the Go 26.44 Kotlin 编译报错 Unresolved reference fillViewport。
+注意：用户先前的构建日志路径显示正在编译 V0.1 旧工程，而非 V0.4。请使用本 ZIP 解压出的 OunanKnowledge_v041 整个目录重新导入。
+本版本尚未在 Android SDK 真机环境编译，不保证没有后续编译或运行错误；请先使用非敏感测试数据。
